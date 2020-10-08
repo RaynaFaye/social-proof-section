@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
 
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+  background-position: left 0px top 0px, right 0px bottom 0px;
+  background-size: contain, contain;
+  background-repeat: no-repeat, no-repeat;
+}
+/* Intro section */
+.intro {
+  text-align: center;
+  padding: 50px 15px 25px;
+}
+.intro__title {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+}
+.intro__paragraph {
+  color: hsl(303, 10%, 53%);
+  margin: 20px 0 30px;
+  line-height: 1.5;
+}
+/* Attribution section */
 .attribution {
   font-size: 11px;
   text-align: center;
