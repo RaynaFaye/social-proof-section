@@ -12,7 +12,7 @@ body {
 /* Intro section */
 .intro {
   text-align: center;
-  padding: 50px 15px 25px;
+  padding: 50px 15px;
 }
 .intro__title {
   color: hsl(300, 43%, 22%);
@@ -39,6 +39,45 @@ body {
   margin: 15px 0 0 0;
   color: hsl(300, 43%, 22%);
   font-weight: 700;
+}
+/* Testimonial section */
+.testimonial {
+  margin: 0 15px;
+}
+.testimonial__block {
+  background: hsl(300, 43%, 22%);
+  border-radius: 5px;
+  margin: 0 0 15px 0;
+  padding: 40px 25px;
+  font-size: 14px;
+}
+.testimonial__avatar-block {
+  display: flex;
+  align-items: center;
+}
+.testimonial__avatar {
+  border-radius: 50%;
+  width: 15%;
+}
+.testimonial__name-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+.testimonial__name {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.testimonial__buyer {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+.testimonial__paragraph {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 25px 0 0;
 }
 /* Attribution section */
 .attribution {
