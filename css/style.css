@@ -91,6 +91,10 @@ body {
 @media all and (min-width: 1000px) {
   body {
     margin: 100px;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: left -850px top -50px, right -125px bottom -100px;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
   }
   /* Intro section */
   .intro {
@@ -126,5 +130,29 @@ body {
   }
   .intro__star-block__text {
     margin: 0 0 0 25px;
+  }
+  /* Testimonial section */
+  .testimonial {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-template-rows: repeat(3, 25px) 1fr repeat(2, 25px);
+  }
+  .testimonial__block {
+    margin: 0;
+  }
+  .testimonial__block__one {
+    grid-row: 1 / 5;
+  }
+  .testimonial__block__two {
+    grid-row: 2 / 6;
+  }
+  .testimonial__block__three {
+    grid-row: 3 / 7;
+  }
+  /* Attribution section */
+  .attribution {
+    margin-top: 50px;
   }
 }
