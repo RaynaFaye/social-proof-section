@@ -87,3 +87,44 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media all and (min-width: 1000px) {
+  body {
+    margin: 100px;
+  }
+  /* Intro section */
+  .intro {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    text-align: left;
+  }
+  .intro__text-block {
+    margin-right: 65px;
+  }
+  .intro__title {
+    font-size: 50px;
+    margin: 0 0 25px 0;
+  }
+  .intro__star-blocks {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 1fr 50px 50px 50px;
+  }
+  .intro__star-block {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+  }
+  .intro__star-block__one {
+    grid-column: 1 / 6;
+  }
+  .intro__star-block__two {
+    grid-column: 2 / 7;
+  }
+  .intro__star-block__three {
+    grid-column: 3 / 8;
+  }
+  .intro__star-block__text {
+    margin: 0 0 0 25px;
+  }
+}
